@@ -1,0 +1,38 @@
+.h3{
+    margin-top: 20px;
+}
+.sectionContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .sectionLeft,
+  .sectionRight {
+    flex: 1;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .sectionRight h2{
+    margin-top: 120px;
+  }
+  .sectionLeft h2{
+    margin-top: 120px;
+  }
+  .sectionLeft img,
+  .sectionRight img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .sectionContainer {
+      flex-direction: column;
+    }
+  
+    .sectionLeft,
+    .sectionRight {
+      width: 100%;
+    }
+  }
+  
